@@ -1,0 +1,187 @@
+[
+    {
+        "cpu": [
+            {
+                "id": 1,
+                "brand": "AMD Ryzen 5 5600x",
+                "price": 300,
+                "corecount": 6,
+                "TDP": "65 W",
+                "PCC": "3.7 GHz",
+                "PBC": "4.6 GHz",
+                "Integrated Graphics": "No",
+                "SMT": "Yes"
+            },
+            {
+                "id": 2,
+                "brand": "AMD Ryzen 7 5800x",
+                "price": 400,
+                "corecount": 8,
+                "TDP": "105 W",
+                "PCC": "3.8 GHz",
+                "PBC": "4.7 GHz",
+                "Integrated Graphics": "No",
+                "SMT": "Yes"
+            },
+            {
+                "id": 3,
+                "brand": "Intel Core i5-12600K",
+                "price": 340,
+                "corecount": 10,
+                "TDP": "125 W",
+                "PCC": "3.7 GHz",
+                "PBC": "4.9 GHz",
+                "Integrated Graphics": "Intel UHD Graphics 770",
+                "SMT": "Yes"
+            },
+            {
+                "id": 4,
+                "brand": "Intel Core i7-12600K",
+                "price": 500,
+                "corecount": 10,
+                "TDP": "125 W",
+                "PCC": "3.7 GHz",
+                "PBC": "4.9 GHz",
+                "Integrated Graphics": "Intel UHD Graphics 770",
+                "SMT": "Yes"
+            },
+            {
+                "id": 5,
+                "brand": "Intel Core i9-12600K",
+                "price": 620,
+                "corecount": 10,
+                "TDP": "125 W",
+                "PCC": "3.7 GHz",
+                "PBC": "4.9 GHz",
+                "Integrated Graphics": "Intel UHD Graphics 770",
+                "SMT": "Yes"
+            }
+        ],
+        "motherboard": [
+            {
+                "id": 1,
+                "brand": "Asus TUF Gaming X570-PlUS (WI-Fi)",
+                "price": 200,
+                "Socket/CPU": "AM4",
+                "FF": "ATX",
+                "Memory Slots": 4,
+                "Color": "Black",
+                "Memory Max": "128 GB"
+            },
+            {
+                "id": 2,
+                "brand": "MSI MAG b550 TOMAHAWK (WI-Fi)",
+                "price": 200,
+                "Socket/CPU": "AM4",
+                "FF": "ATX",
+                "Memory Slots": 4,
+                "Color": "Silver",
+                "Memory Max": "128 GB"
+            }
+        ],
+        "video card": [
+            {
+                "id": 1,
+                "brand": "EVGA XC Gaming",
+                "price": 320,
+                "Chipset": "GEFORCE RTX 3060",
+                "Memory": "12GB",
+                "Core Clock": "1320 MHz",
+                "Boost Clock": "1882 MHz",
+                "Color": "Black",
+                "Length": "215 mm"
+            },
+            {
+                "id": 2,
+                "brand": "Asus DUAL EVO OC",
+                "price": 600,
+                "Chipset": "GEFORCE RTX 2060",
+                "Memory": "6GB",
+                "Core Clock": "1365 MHz",
+                "Boost Clock": "1785 MHz",
+                "Color": "Black",
+                "Length": "242 mm"
+            }
+        ],
+        "headphones": [
+            {
+                "id": 1,
+                "brand": "HiFiMAN Susvara",
+                "price": 400,
+                "Type": "Circumaural",
+                "Frequency Response": "6 Hz - 75 KHz",
+                "Microphone": "No",
+                "Wireless": "No",
+                "Enclosure Type": "Open",
+                "Color": "Silver/Brown"
+            },
+            {
+                "id": 2,
+                "brand": "Razer Kraken X",
+                "price": 370,
+                "Type": "Circumaural",
+                "Frequency Response": "12 Hz - 28 KHz",
+                "Microphone": "Yes",
+                "Wireless": "No",
+                "Enclosure Type": "Closed",
+                "Color": "Black"
+            }
+        ],
+        "prebuilt": [
+            {
+                "id": 1,
+                "price": 800,
+                "cpu": "AMD Ryzen 5 5600x",
+                "motherboard": "Asus TUF Gaming X570-PlUS (WI-Fi)",
+                "storage": "Samsung 970 Evo Plus 1",
+                "videocard": "Asus DUAL EVO OC",
+                "memory": "Corsair Vengeance LPX 32GB"
+            },
+            {
+                "id": 2,
+                "price": 700,
+                "cpu": "Intel Core i5-12600K",
+                "motherboard": "Asus TUF Gaming X570-PlUS (WI-Fi)",
+                "storage": "Samsung 970 Evo Plus 1",
+                "videocard": "EVGA XC Gaming",
+                "memory": "Corsair Vengeance LPX 32GB"
+            },
+            {
+                "id": 3,
+                "price": 500,
+                "cpu": "AMD Ryzen 5 5600x",
+                "motherboard": "Asus TUF Gaming X570-PlUS (WI-Fi)",
+                "storage": "Samsung 970 Evo Plus 1",
+                "videocard": "EVGA XC Gaming",
+                "memory": "Corsair Vengeance LPX 32GB"
+            },
+            {
+                "id": 4,
+                "price": 600,
+                "cpu": "Intel Core i5-12600K",
+                "motherboard": "Asus TUF Gaming X570-PlUS (WI-Fi)",
+                "storage": "Samsung 970 Evo Plus 1",
+                "videocard": "Asus DUAL EVO OC",
+                "memory": "Corsair Vengeance LPX 32GB"
+            },
+            {
+                "id": 5,
+                "price": 900,
+                "cpu": "AMD Ryzen 5 5600x",
+                "motherboard": "Asus TUF Gaming X570-PlUS (WI-Fi)",
+                "storage": "Samsung 970 Evo Plus 1",
+                "videocard": "EVGA XC Gaming",
+                "memory": "Corsair Vengeance LPX 32GB"
+            },
+            {
+                "id": 6,
+                "price": 1000,
+                "cpu": "Intel Core i5-12600K",
+                "motherboard": "Asus TUF Gaming X570-PlUS (WI-Fi)",
+                "storage": "Samsung 970 Evo Plus 1",
+                "videocard": "EVGA XC Gaming",
+                "memory": "Corsair Vengeance LPX 32GB"
+            }
+        ]
+    }
+]
