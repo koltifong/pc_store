@@ -1,7 +1,6 @@
 {
   "name": "pc-store",
   "version": "0.1.0",
-  "type": "commonjs",
   "private": true,
   "main": "server.js",
   "engine": {
