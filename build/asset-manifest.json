@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4a491a2f.css",
+    "main.js": "/static/js/main.b8a97455.js",
+    "static/media/motherboard.jpg": "/static/media/motherboard.682c0a2769dc64530e78.jpg",
+    "static/media/videocard.jpg": "/static/media/videocard.e7b2ea8135b43effc7ac.jpg",
+    "static/media/prebuilt.jpg": "/static/media/prebuilt.b9de3fdd2966a40a7b63.jpg",
+    "static/media/cpu.jpeg": "/static/media/cpu.a17c424389a0e5b5df4e.jpeg",
+    "static/media/logo.png": "/static/media/logo.7c26c2e651e068964416.png",
+    "static/media/headphones.png": "/static/media/headphones.b573e66a46a84d6c25f4.png",
+    "index.html": "/index.html",
+    "main.4a491a2f.css.map": "/static/css/main.4a491a2f.css.map",
+    "main.b8a97455.js.map": "/static/js/main.b8a97455.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a491a2f.css",
+    "static/js/main.b8a97455.js"
+  ]
+}
