@@ -102,9 +102,9 @@ const Header = () => {
         }
     }
 
-    const User = ({username}) => {
+    const User = () => {
         if (records.length != 0) {
-            return <Button className="user-btn" onClick={userOpen} >{username}</Button>
+            return <Button className="user-btn" onClick={userOpen} >{records.username}</Button>
         }
         return <Button className="user-btn" onClick={handleOpen} >User</Button>
     }
@@ -119,7 +119,6 @@ const Header = () => {
                     <h2>PCPICKER</h2>
                 </div>
                 <div className="ui right item">
-                    
                     <User />
                     <a href="#"><i className="icon user"></i></a>
                     <Link to="/cart"><Icon name='cart' /></Link>
