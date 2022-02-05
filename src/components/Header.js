@@ -102,9 +102,9 @@ const Header = () => {
         }
     }
 
-    const User = () => {
+    const User = ({username}) => {
         if (records.length != 0) {
-            return <Button className="user-btn" onClick={userOpen} >{records.username}</Button>
+            return <Button className="user-btn" onClick={userOpen} >{username}</Button>
         }
         return <Button className="user-btn" onClick={handleOpen} >User</Button>
     }
