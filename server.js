@@ -11,3 +11,8 @@ app.use(express.static(path.join(__dirname, "build")));
 app.get('/', (req, res) => res.sendFile(path.resolve(__dirname, "build", "index.html")));
 
 app.listen(port, () => console.log(`Server listening on port ${port}`));
+
+var http = require("http");
+setInterval(function() {
+    http.get("http://<pcpart-picker>.herokuapp.com");
+}, 300000); // every 5 minutes (300000)
